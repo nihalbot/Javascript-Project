@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Keep Updated & Stay Healthy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="cart">
+            <div class="search">
+                <div class="search-field">
+                    <input class="input_city" type="text" placeholder="enter city name">
+                </div>
+                <div class="search-button">
+                    <button><img src="./images/search.png" alt="search_icon"></button>
+                </div>
+            </div>
+
+            <div class="weather-info">
+                <img class="weather_icon" src="images/rain.png" alt="">
+                <h1 class="temp">7°C</h1>
+                <h2 class="city">New York</h2>
+
+                <div class="weather-details">
+                    <div class="details" id="diff">
+                        <img src="images/humidity.png" alt="">
+                        <div class="details-weather">
+                            <h3 class="humidity">64%</h3>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="details" id="diff"  >
+                        <img src="images/wind.png" alt="">
+                        <div class="details-weather" >
+                            <h3 class="wind">18 km/h</h3>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
